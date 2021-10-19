@@ -1,3 +1,4 @@
+// Focus on html then js next. Can style last
 // Will probably need arrays [a,b,c]
 // Will probably need objects [
 
@@ -10,9 +11,8 @@ var questionOne = {
         Answer: '22'
 }, 
     // If option chosen = answer, correct. Else, wrong
-    {
-        title: '',
-        answer: '',
-        answer: ''
+    {   title: 'a',
+        answer: 'b',
+        answer: 'c'
     }
 ]
