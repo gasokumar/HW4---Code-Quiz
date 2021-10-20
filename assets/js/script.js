@@ -7,17 +7,20 @@ var timeEl = document.querySelector("#timer")
 
 
 
-//Make an array that holds all the questions/answers. For each question, make an object that has a question property, options, property, and answer 
+//Make an array that holds all the questions/answers. For each question, make an object that has a question property, options property, and answer 
 // Once end of array is reached, show ending screen
-[
-// var questionOne = {
-//         Question: 'How old are you',
-//         Options: ['21,22,23,24' ],
-//         Answer: '22'
-// }, 
-//     // If option chosen = answer, correct. Else, wrong
-//     {   title: 'a',
-//         answer: 'b',
-//         answer: 'c'
-//     }
-// ]
+ var questionBank = [
+    var questionOne = {
+        Question: 'What tag is used to link an external javascript page?',
+        Options: ['<link>,<ref>,<script>,<js>' ],
+        Answer: '<script>',
+}, 
+
+    var questionTwo = { 
+        Question: 'a',
+        answer: 'b',
+        answer: 'c'
+    }
+];
+
+// If option chosen = answer, correct. Else, wrong
