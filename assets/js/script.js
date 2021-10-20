@@ -3,7 +3,7 @@
 // Will probably need objects [
 
 //Make an array that holds all the questions/answers. For each question, make an object that has a question property, options, property, and answer 
-
+// Once end of array is reached, show ending screen
 [
 var questionOne = {
         Question: 'How old are you',
